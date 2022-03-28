@@ -1,0 +1,9 @@
+@import '../../../../styles/mixins/media.scss';
+
+.block {
+
+  @include b(mobile){
+    transform: none;
+    width: 100vw;
+  }
+}

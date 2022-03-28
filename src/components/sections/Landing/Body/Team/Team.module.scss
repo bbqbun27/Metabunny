@@ -1,0 +1,108 @@
+@import '../../../../../styles/mixins/container.scss';
+@import '../../../../../styles/mixins/media.scss';
+
+.section {
+  background: #000;
+  background-size: cover;
+  padding: 50px;
+  @include b(mobile) {
+    padding-bottom: 50px;
+    justify-content: flex-start;
+    flex-wrap: wrap-reverse;
+  }
+}
+
+.content {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  @include b(mobile) {
+    display: block;
+  }
+}
+
+.teammates {
+  width: 33%;
+  @include b(mobile) {
+    width: 100%;
+    margin: 30px auto;
+  }
+}
+
+.teammate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 214px;
+  border-radius: 50%;
+  border: 3px solid #444;
+}
+
+.name {
+  margin-bottom: 20px;
+  font-family: 'TL', sans-serif;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 4px;
+}
+
+.title {
+  margin: 0 auto;
+  padding: 17px 30px;
+  box-sizing: border-box;
+  width: fit-content;
+  font-family: 'TL', sans-serif;
+  font-size: 36px;
+  letter-spacing: 4px;
+  line-height: 58px;
+  border-radius: 12px;
+  text-transform: capitalize;
+  @include b(tablet) {
+    font-size: 50px;
+  }
+  @include b(mobile) {
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+  }
+}
+
+.description {
+  padding:0 10px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-align: left;
+}
+
+.subtitle {
+  max-width: 500px;
+  line-height: 1.5;
+  transition-delay: 1s !important;
+
+  span {
+    font-weight: 700;
+    color: #fd7d48;
+  }
+
+  & + & {
+    margin-top: 25px;
+  }
+}
+.video {
+  position: relative;
+  height: 100vh;
+}
+.slide {
+  width: 100%;
+  max-width: 100vw;
+}

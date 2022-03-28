@@ -1,0 +1,190 @@
+  {
+    "navigation": {
+    "project": "Project",
+    "intro": "Intro",
+    "gamefi": "GameFi",
+    "bunnyverse": "Bunnyverse",
+    "gamefiUrl" : "gamefi/index_en.html",
+    "bunnyverseUrl" : "bunnyverse/index_en.html",
+    "stakingUrl" : "staking/index_en.html",
+    "staking": "Staking",
+    "benefits": "Benefits",
+    "sales": "Initial Launch",
+    "roadmap": "Roadmap",
+    "team": "Team",
+    "faq": "Faq",
+    "resell": "Resell on Opensea",
+    "otherfaq": "Other Faq",
+    "litepaper": "litepaper",
+    "litepaperurl": "litepaper.pdf",
+    "ci": "Ci",
+    "top": "Top"
+  },
+  "benefits":  {
+    "title": "Benefits as a MetaBunny Holder",
+    "01": "Exclusive MetaBunny In-game Identity",
+    "01a": "Enjoy high APY Staking Reward on $CARROT",
+    "02": "Enjoy MetaBunny Airdrop and Lottery",
+    "03": "Join Exclusive “Bunnyverse Events” in The Sandbox Metaverse",
+    "04": "Purchase Exclusive NFT Toy Figure",
+    "05": "Join Club ZFU Private MetaBunny Party",
+    "06": "Holders of MetaBunny NFTs with Scary Level 1 or 5 can join various Celebrities Parties and Artists Events",
+    "07": "Each MetaBunny’s Intellectual Property belongs to NFT Holders",
+    "08": "Exclusive “3HK” Benefits: MetaBunny NFT Holders can get ONE free 4G LTE PrePaid Card at designated 3HK stores",
+    "08a": "and enjoy an exclusive discount of HK$500 off with iPhone 13 Purchase or 12% off with Android Smartphone"
+  },
+  "guide": {
+    "how": "how to mint?",
+    "Url": "guideline/index_en.html",
+    "title": "How to mint from the official website?",
+    "step1": "Step 1. Click the mint button",
+    "step1texta": "Click on the mint button located in the centre of the official website",
+    "step1textb": "(A cryptocurrency wallet needs to be created in advance. You can refer to our tutorial video on how to create your MetaMask wallet",
+    "step1textc": "After entering the official website, click the mint option to go to the purchase page; usually the mint option will appear in the center of the web page or prominently at the top right",
+    "step2": "Step 2. Connect your wallet",
+    "step2texta": "Connect your wallet by selecting the type of crypto wallet you are using (choose either MetaMask or Wallet Connect)",
+    "step3": "Step 3. Select and confirm your order",
+    "step3texta": "Choose your desired purchase quantity and click mint. A window will pop up confirming the purchase amount along with the associated gas fee (gas fee will fluctuate depending on the traffic condition on the Ethereum Blockchain). Check your order and click confirm",
+    "step4": "Done!"
+  },
+  "whitelist": {
+    "title": "How to get whitelist?",
+    "01": "Whitelist Instructions:",
+    "02": "1. Follow  ",
+    "03": "and",
+    "04": "2. Join our ",
+    "05": "3. Do one of the followings:",
+    "06": "Twitter: Like, RT and tag 3 friends under this tweet ",
+    "07": "Instagram: like, share and tag 3 friends on this post  ",
+    "08": "4. Download the HKD.com App and sign up with HKD.com ",
+    "09": "Once you have done the above, fill in the form here for your whitelist!"
+  },
+  "button": {
+    "connect": "Connect",
+    "mint": "mint",
+    "bunnyverse": "bunnyverse",
+    "gamefi": "gamefi",
+    "staking": "staking",
+    "join": "Join Discord",
+    "ok": "ok"
+  },
+  "intro": {
+    "text": "MetaBunny is a 10,000 NFT Collection of 3D Bunnies, algorithmically generated on the Ethereum Blockchain via the ERC 721 token standard. MetaBunnies are precious digital collectibles, each MetaBunny is unique and made up of different faces, accessories, clothes, items, and more.  ",
+    "text1a": "The MetaBunny Charitable Pre-Sale will start on 20th March 2022, 02:22am EST (2:22pm HKT). The Pre-Sale Price will be 0.8 ETH and part of the proceed will go to the Forever Humanity Project.",
+    "text2": "MetaBunny Whitelist Sale was successfully completed on 21st JAN 2022. Follow by a much anticipated Public Sale which is going to take place on 23 MARCH 2022. Superstars from America and Thailand are vibing with MetaBunny.",
+    "text3": "",
+    "preview": {
+      "text1.1": "BunnyVerse is a virtual space where NFT holders can enter and reap rewards.",
+      "text2": "Inside the MetaBunny GameFi model, there will be Daily Missions; PVE (Players vs Enemies); PVP (Players vs Players), a rich selection of game modes. Players can play and earn at the same time. They will be rewarded CARROT token, NFT items, MetaBunny NFT and more.",
+      "text3.1": "NFT holders can choose to stake their MetaBunny and mine CARROT tokens.",
+      "text4": "As a MetaBunny OG and loyal supporter, you will be getting Exclusive Merch sent to your door step.",
+      "bunnyverse": "Bunnyverse",
+      "gamefi": "Gamefi",
+      "staking": "Staking",
+      "merchandise": "Metaclothes"
+    }
+  },
+  "preview": "preview",
+  "roadmap": {
+    "desc": {
+      "10": "Initial Launch (Presale 20th 4PM HKT, Public Launch 21st 4PM HKT)",
+      "20": "Bunnyverse (Q3-4 2022)",
+      "30": "Staking and Tokenization (Q3-4 2022)",
+      "40": "Bunnyverse (H2 2022)"
+    },
+    "percents": {
+      "10": "MetaBunny NFT was born in Hong Kong, the first 1,000 pieces were sold out immediately in the 1st round of Presale. After the success in Hong Kong, MetaBunny NFT has now expanded its reach to the US, Thailand, and other nations. Many celebrities and collectors have shown keen interests in the MetaBunny project. We want to create a strong community filled with fun and games. Our NFT acts as a membership to our community where we will have regular game nights, contests and events with lucrative prizes and raffles. The giveaways will be handed out based on the scoreboard and will be reset monthly. The design of every traits of each MetaBunny had gone over many discussions before the finalising. We want to make sure every MetaBunny will be unique with some being cute and others being scary. Each MetaBunny will be classified by their Scary Meter on deciding which type it will be.",
+      "20": "The MetaBunny will be expanded to the Game-Fi sector and ultimately, its own Metaverse which we will call Bunnyverse. We will integrate every MetaBunny into the Bunnyverse so that MetaBunny owners will be able to choose an avatar based on the appearance of their MetaBunnies. There will be a “Scary to Earn” Mechanism where the more scary the Bunny is, the more $CARROT it can earn. We will also be collaborating with other projects to build an exciting and diverse Bunnyverse for everyone. ",
+      "30": "1-2 months down the road after launch, we will allow MetaBunnies to be staked in order to earn $CARROT. $CARROT is the utility token for our MetaBunny Project and can be used to purchase future exclusive merchandises which will be exclusive to MetaBunny Holders. The purpose of staking is to provide overtime value for our MetaBunny holders in order to maintain a high floor price. $CARROT will only be used for the MetaBunny Ecosystem, our merchandise and has no real monetary value.",
+      "40": "The MetaBunny will be expanded to the Game-Fi sector and ultimately, its own Metaverse which we will call Bunnyverse. We will integrate every MetaBunny into the Bunnyverse so that MetaBunny owners will be able to choose an avatar based on the appearance of their MetaBunny. There will be a “Scary to Earn” Mechanism where the more scary the bunny is, the more $CARROT it can earn. We will also be collaborating with other projects to build an exciting and diverse Bunnyverse for everyone.Daily Crypto raffle to all members (every day will be different for which crypto be drawn from the raffle (If OG members are chosen, the reward will be increased)"
+    }
+  },
+  "team": {
+    "team1": {
+      "title": "Kelvin",
+      "text": "A serial entrepreneur who has the courage to put his dreams into practice., an expert in search engine optimization with more than 18 years of experience in the internet technology industry. The founder & CEO of Hong Kong Digital Asset Exchange HKD.com"
+    },
+    "team2": {
+      "title": "ANSON",
+      "text": "Lead Artist for the project. Former 3D animator at a VR game company. Passionate in playing video games and watching Japanese anime. He has sacraficed his life for this project."
+    },
+    "team3": {
+      "title": "EZEN",
+      "text": "EZEN is a Crypto Consultant. He was introduced to Bitcoin since its inception, and began researching and investing heavily into crypto assets since the birth of Ethereum."
+    }
+  },
+  "community": {
+    "title": "community",
+    "text": "We are a group of people that love games and fun, so we want the community to be like that as well! There will be contests held regularly including but not limited to Trivia, Poker nights, Tabletop games, Puzzle games, Meme contests and many more which some will be decided via voting among the community. There will be scoreboards of each game and the member ranked 1st as well as the most participated member of each month will receive a special 1 of 1 MetaBunny."
+  },
+  "faq": {
+    "faq1": {
+      "title": "What is an NFT?",
+      "text": "Non-Fungible Token (NFT) is a unique and non-interchangeable unit of data on the blockchain stored on a digital ledger. Its purpose is to establish the proof of ownership of digital assets such as jpg, videos, gifs and more."
+    },
+    "faq2": {
+      "title": "What is a MetaBunny?",
+      "text": "MetaBunny is an NFT created by a team of NFT enthusiasts who would like to build a community full of fun and games! Every MetaBunny has a scary meter which will determine how scary or cute the bunny is. The more scary you are, or in some cases the less scary you are, the more rewards you will be able to yield!"
+    },
+    "faq3": {
+      "title": "What can I do with my MetaBunny?",
+      "text": "Each MetaBunny acts as a membership to join our community where many different events such as poker nights, video game contests, art contests, trivia game awaits you. You will also be able to buy merchandises as well as receiving other benefits exclusive to MetaBunny owners. Be sure to change your social media’s profile picture and tell your friends and family about it!"
+    },
+    "faq4": {
+      "title": "How can I get a MetaBunny?",
+      "text": "In order to get a MetaBunny, all you need is a MetaMask wallet with some Ethereum in it, then you are good to go!"
+    },
+    "faq5": {
+      "title": "Where can I get my MetaBunny?",
+      "text": "You can get a MetaBunny through our website when our presale and public sale launches. After that, it will be available for purchase on Opensea for second hand purchases."
+    },
+    "faq6": {
+      "title": "When can I get my MetaBunny?",
+      "text": "Stay tuned for updates on our Twitter, Official Website, Discord Channel for any news regarding to the launch time and our future plans!"
+    },
+    "faq7": {
+      "title": "How to get OG status?",
+      "text": "We will be giving out OG status to the first 500 discord members that joined the server. Please be sure to share with any friends or fam that might be interested."
+    }
+  },
+  "account": {
+    "title": "account",
+    "text": "Connected with",
+    "disconnect": "Disconnect",
+    "delete": "If you want to disconnect your wallet please delete MetaBunny.io from connected sites in MetaMask",
+    "copy": "Copy address",
+    "success": "Success!"
+  },
+  "mint": {
+    "title": "mint in live",
+    "stop": "Welcome to the MetaBunny Minting Page! MetaBunny has been the talk in town lately around places like Hong Kong, the US, Thailand, and more! Lots of international superstars has joined the MetaBunny Community! Come and be an owner now by connecting your ''Wallet'' and key in the quantity. Now you are ready to start a journey of endless fun and entertainment!",
+    "stop1": "''MetaBunny NFT'' 2nd Round Public Sale will officially begin on 23/03/2022! ",
+    "stop2": "Public Sale Time:",
+    "stop3": "* US Eastern Standard Time: 23/03/2022  03:00（GMT-4）",
+    "stop4": "* Hong Kong Time: 23/03/2022 15:00（GMT+8）",
+    "stop5": "* Thailand Time: 23/03/2022 14:00（GMT+7）",
+    "stop6": "Public Sale Price: 0.5ETH",
+    "desc": "Check out the collection on "
+  },
+  "toast": {
+    "connected": "Wallet connected: ",
+    "disconnected": "Wallet disconnected",
+    "allMinted": "There is not enough tokens to mint",
+    "pausedMint": "Minting is paused now",
+    "mintProgress": "Mint in progress. View on ",
+    "minted1": "Minted",
+    "minted2": "bunnies. View on ",
+    "minted3": "Minted 1 bunny. View on ",
+    "error": "Something went wrong",
+    "whitelist": "Your address not in the whitelist"
+  },
+  "modal": {
+    "connect": {
+      "title": "Select a wallet",
+      "subtitle": "Connect a wallet"
+    }
+  },
+  "footer": {
+    "remark": "This product is not a financial product or any investment and wealth management product. The design purpose of the product is not for investment. Whether buying or selling this product, it is the buyer's own decision and responsibility. The company cannot predict the future price changes of the product. or control, if there is any price fluctuation, it has nothing to do with the company."
+  }
+}

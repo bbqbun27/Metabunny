@@ -1,0 +1,122 @@
+@import '../../../../styles/mixins/media.scss';
+
+.block {
+    // background: url('../../../../assets/img/sections/landing/body/bg_upside.png') bottom no-repeat;
+    // background-size: contain;
+  // height: 100vh;
+  // height: 100%;
+  // width: 100%;
+  transform: translateY(-50px);
+  overflow: hidden;
+  position: relative;
+  @include b(mobile){
+    transform: none;
+  }
+
+  // @media (min-width: 1325px) {
+  //   background: url('../../../../assets/img/sections/landing/first-block/bg2.svg') 0 0 no-repeat,
+  //     #f0d961;
+  //   background-size: cover;
+  // }
+}
+.bunny {
+  width: 100%;
+  @include b(tablet){
+    width: 100%;
+    transform: none;
+  }
+}
+
+.bg{
+  background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 58.91%);
+  position: absolute;
+  bottom:0;
+  left:0;
+  width: 100%;
+}
+
+.block_inner {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  max-width: 1440px;
+  @include b(mobile) {
+    height: 100%;
+  }
+
+  @include b(extramobile) {
+    justify-content: flex-start;
+
+    height: 100%;
+  }
+}
+
+.button {
+  z-index: 2;
+  font-size: 39.2562px;
+  line-height: 45px;
+  position: absolute;
+  font-family: 'TL', sans-serif;
+  top: 30%;
+}
+
+.left {
+  img {
+    position: relative;
+
+    max-width: 100%;
+
+    animation: top-down 3s linear infinite forwards;
+    @include b(extramobile) {
+      max-width: 200px;
+    }
+  }
+}
+
+@keyframes top-down {
+  0% {
+    top: 0;
+  }
+
+  25% {
+    top: 10px;
+  }
+
+  50% {
+    top: 0;
+  }
+
+  75% {
+    top: -10px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+.right {
+  padding-left: 50px;
+  align-self: center;
+  @include b(mobile) {
+    display: none;
+  }
+}
+
+.title {
+  margin-bottom: 20px;
+
+  font-family: 'FORT';
+  font-size: 100px;
+}
+
+.subtitle {
+  max-width: 500px;
+
+  font-size: 17px;
+  line-height: 1.5;
+}

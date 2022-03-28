@@ -1,0 +1,288 @@
+@import '../../../../../styles/mixins/media.scss';
+
+.section {
+  background: url('../../../../../assets/img/sections/landing/body/roadmap.png') center 0 no-repeat,
+  #000;
+  background-size: 100%;
+  background-color:rgba(0,0,0,.8);
+  &_inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    padding-bottom: 120px;
+    
+    @include b(mobile) {
+      padding: 10px;
+    }
+
+    .text {
+      width: 70%;
+      margin: auto;
+      text-align: left;
+      line-height: 30px;
+      word-break: break-all;
+      li{
+        margin: 1em 0;
+        display: block;
+        position: relative;
+        line-height:20px;
+      }
+      @include b(mobile) {
+        width: 100%;
+        padding-bottom: 50px;
+      }
+    }
+  }
+
+  @include b(mobile) {
+    padding: 0;
+  }
+}
+
+.title {
+  margin: 0 auto;
+  margin-top: 120px;
+  padding: 17px 30px;
+  box-sizing: border-box;
+  width: fit-content;
+  font-family: 'TL', sans-serif;
+  font-size: 50px;
+  line-height: 58px;
+  border-radius: 12px;
+  z-index: 1;
+  @include b(mobile) {
+    margin-top: 40px;
+    font-size: 25px;
+    line-height: 29px;
+  }
+}
+
+.faqs {
+  margin-top: 80px;
+  @include b(mobile) {
+    margin-top: 40px;
+    padding: 0 15px;
+  }
+}
+
+.item {
+  padding: 10px 15px;
+  overflow: hidden;
+  box-sizing: border-box;
+  max-width: 1000px;
+  cursor: pointer;
+  background-color: rgba(65,15,20,.7);
+  border-radius: 12px;
+  position:relative;
+  transition: 0.4s linear;
+
+  &Active {
+    background: rgba(0,0,0,.7);
+  }
+  @include b(mobile) {
+    max-width: 100%;
+  }
+
+  & + & {
+    margin-top: 10px;
+  }
+
+  &_title {
+    font-family: 'MSR', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    transition: 0.4s ease;
+    position: relative;
+
+    .arrow {
+      position: absolute;
+      top: calc(50% - 7px / 2);
+      right: 18px;
+      transition: 0.5s;
+    }
+
+    &Active {
+      font-weight: bold;
+      font-size: 20px;
+      color:#fdcf42;
+      .arrow {
+        position: absolute;
+        top: calc(50% - 7px / 2);
+        right: 18px;
+        // transform: rotate(180deg);
+        transition: 0.5s;
+      }
+    }
+    @include b(mobile) {
+      font-size: 18px;
+      line-height:20px;
+      .arrow {
+        right: -10px;
+      }
+    }
+  }
+
+  &_subtitle {
+    max-height: 0;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    line-height: 24px;
+    opacity: 0;
+    transition: 0.4s ease;
+
+    &.active {
+      margin-top: 10px;
+      max-height: 500px;
+      opacity: 1;
+    }
+    @include b(mobile) {
+      font-size: 14px;
+    }
+  }
+}
+
+.background {
+  width: 100%;
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+.logo{
+  min-height:200px;
+  height:auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#000;
+  flex-wrap:wrap;
+  .creator{
+    position:relative;
+    @include b(tablet) {
+      height:120px;
+    }
+    .plogo{
+      width:160px;
+      @include b(tablet) {
+        margin: auto;
+        left: 0;
+        right: 0;
+        position: absolute;
+      }
+    }
+    .subTitle{
+      position:absolute;
+      top:-38px;
+      left:0px;
+      font-size:10px;
+      color:#666;
+      @include b(mobile) {
+        text-align: center;
+        left: 0;
+        right: 0;
+      }
+    }
+  }
+  .partners{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+    position:relative;
+    @include b(mobile) {
+      height:200px;
+    }
+    .subTitle{
+      position:absolute;
+      top:-30px;
+      left:0px;
+      font-size:10px;
+      color:#666;
+      @include b(tablet) {
+        text-align: center;
+        top:0px;
+        left: 0;
+        right: 0;
+      }
+    }
+    .plogo2{
+      width:160px;
+      top:6px;
+      position:relative;
+    }
+    .plogo3{
+      width:120px;
+    }
+    .plogo1{
+      width:110px;
+      top:8px;
+      position:relative;
+    }
+    .plogo7{
+      width:120px;
+      top:5px;
+      left:5px;
+      position: relative;
+    }
+    .plogo8{
+      width:120px;
+      top: 7px;
+      position: relative;
+    }
+    .plogo9{
+      width: 100px;
+      top: 11px;
+      left: -10px;
+      position: relative;
+    }
+    .plogo10{
+      width:60px;
+      top: 4px;
+      left: -25px;
+      position: relative;
+    }
+  }
+  .three{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+    position:relative;
+    .subTitle{
+      position:absolute;
+      top:-30px;
+      left:0px;
+      font-size:10px;
+      color:#666;
+      @include b(mobile) {
+        text-align: center;
+        left: 0;
+        right: 0;
+      }
+    }
+    .logo5{
+      width:70px;
+      top:0px;
+      position: relative;
+    }
+    .plogo6{
+      width:110px;
+      left: 15px;
+      position:relative;
+    }
+
+  }
+  @include b(tablet) {
+    padding:0;
+    height:auto;
+    display:block;
+    margin-top:100px;
+    min-height: 185px;
+    img{
+      width:100px;
+    }
+  }
+}

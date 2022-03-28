@@ -1,0 +1,141 @@
+@import '../../../../../styles/mixins/media.scss';
+
+.section {
+  position: relative;
+  margin: 0 auto;
+  padding: 50px 15px;
+  text-align: center;
+  background: url('../../../../../assets/img/sections/landing/body/roadmap.png'), #000;
+  background-position: top center;
+  -webkit-background-size: 100% 60%;
+  -moz-background-size: 100% 60%;
+  -o-background-size: 100% 60%;
+  background-size: 100% 60%;
+  @include b(tablet) {
+    padding:50px 0;
+  }
+
+  &_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.title {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: fit-content;
+  letter-spacing: 4px;
+  font-family: 'TL';
+  font-size: 50px;
+  line-height: 58px;
+  margin: 100px auto;
+  text-transform: capitalize;
+
+  //background: #000;
+  //border: 4px solid #ff1616;
+  //border-radius: 12px;
+
+  @include b(tablet) {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 50px;
+  }
+
+  @include b(tablet) {
+    font-size: 25px;
+    line-height: 29px;
+  }
+}
+
+.subtitle {
+  font-size: 18px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.stages {
+  margin: 0 auto;
+  width: 70%;
+  @include b(tablet) {
+    width: 90%;
+  }
+}
+
+.stage {
+  //padding: 12px 18px;
+  text-align: left;
+  background-color: rgba(66,66,66,.7);
+  letter-spacing:3px;
+  @include b(tablet) {
+    text-align: center;
+  }
+  .percentage {
+    padding: 15px;
+    min-width: 180px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    background-color: #f7b42c;
+    background-image: linear-gradient(315deg, #880b10 0%, #fc575e 74%);
+    @include b(tablet) {
+      width: 100%;
+      margin: auto;
+      font-size: 14px;
+    }
+  }
+
+  .description {
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    padding: 20px 15px;
+    text-align: left;
+    word-break: break-all;
+    @include b(tablet) {
+      width: 95%;
+      margin:auto;
+      word-break: break-all;
+      font-size: 14px;
+      padding:20px 5px;
+      text-align: center;
+    }
+  }
+
+  & + & {
+    margin-top: 25px;
+  }
+
+  &.oddStage {
+    background-color: rgba(99,99,99,.7);
+    box-sizing: border-box;
+    //border: 2px solid #676767;
+    //box-shadow: inset 0 0 7px 0.5px #787878;
+    @include b(tablet) {
+    }
+    .percentage {
+      box-sizing: border-box;
+      background-color: #f7b42c;
+      background-image: linear-gradient(315deg, #fc575e 0%, #880b10 74%);
+      min-width: 180px;
+      //box-shadow: inset 0 0 7px 0.5px #ff1616;
+    }
+
+    .description {
+      font-family: 'MSR', sans-serif;
+      font-size: 14px;
+      text-align: left;
+      word-break: break-all;
+      @include b(tablet) {
+        width: 95%;
+        margin:auto;
+        word-break: break-all;
+        font-size: 14px;
+        padding:20px 5px;
+        text-align: left;
+      }
+    }
+  }
+}

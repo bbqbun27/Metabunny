@@ -1,0 +1,94 @@
+@import '../../../../../styles/mixins/media.scss';
+
+.section {
+  position: relative;
+
+  padding-top: 111px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #000;
+}
+
+.nfts {
+  margin: 0 auto;
+
+  display: flex;
+  @include b(mobile) {
+    display: none;
+  }
+
+  &Mobile {
+    display: none;
+    @include b(mobile) {
+      display: block;
+    }
+  }
+}
+
+.slide {
+  max-width: 100vw;
+}
+
+.nft {
+  & + & {
+    margin-left: 10px;
+    @include b(mobile) {
+      margin-left: 0;
+    }
+  }
+  @include b(mobile) {
+    padding: 5px;
+
+    width: fit-content;
+  }
+}
+
+.image {
+  width: 100%;
+  @include b(mobile) {
+    width: fit-content;
+  }
+}
+
+.head {
+  position: relative;
+
+  margin-bottom: 17px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 42px;
+
+  font-family: 'MSR', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.pages {
+  position: absolute;
+  z-index: 1;
+  bottom: -97px;
+  @include b(mobile) {
+    display: none;
+  }
+}
+
+.page {
+  font-family: 'TL', sans-serif;
+  font-size: 25px;
+  line-height: 29px;
+
+  & + & {
+    margin-left: 15px;
+  }
+
+  &.active {
+    background: #ea3b3b;
+  }
+}
