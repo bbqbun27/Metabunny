@@ -176,7 +176,8 @@
     "minted2": "已經成功 Mint. 請查看 ",
     "minted3": "已經 Mint 了元兔. 請查看",
     "error": "出問題了",
-    "whitelist": "您的地址不在白名單中"
+    "whitelist": "您的地址不在白名單中",
+    "balance": "錢包餘額似乎不足，請充值後重試"
   },
   "modal": {
     "connect": {
