@@ -148,6 +148,14 @@ export class WalletConnect {
       return;
     }
     const price = await contract.methods.price().call();
+    const balance = await this.currentWeb3().eth.getBalance(userAddress);
+    const gas = await contract.methods.price().estimateGas({ from: userAddress });
+    if (
+      new BigNumber(price).times(amount).plus(gas.toString()).isGreaterThan(new BigNumber(balance))
+    ) {
+      notify(this.t('toast.balance'), 'error');
+      return;
+    }
     contract.methods
       .buy(amount)
       .send({
